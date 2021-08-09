@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:gravity="center_vertical"
+    android:background="@mipmap/qiugou_item_bg"
+    android:layout_height="200dp">
+
+
+        <it.mbkj.kuangji.view.NewTextView
+            android:id="@+id/tv_order"
+            android:layout_width="wrap_content"
+            android:text="订单号:21324343453"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/libTextWhite"
+            android:layout_height="wrap_content"/>
+        <it.mbkj.kuangji.view.NewTextView
+            android:id="@+id/tv_buy"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="买入人:如歌"
+            android:textColor="@color/libTextWhite"
+            android:layout_height="wrap_content"/>
+        <it.mbkj.kuangji.view.NewTextView
+            android:id="@+id/tv_sell"
+            android:layout_width="wrap_content"
+            android:text="卖出人：公告"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/libTextWhite"
+            android:layout_height="wrap_content"/>
+        <it.mbkj.kuangji.view.NewTextView
+            android:id="@+id/tv_jiaoyi_num"
+            android:layout_width="wrap_content"
+            android:text="交易数量:123"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/libTextWhite"
+            android:layout_height="wrap_content"/>
+    <it.mbkj.kuangji.view.NewTextView
+        android:id="@+id/tv_jiaoyi_fee"
+        android:layout_width="wrap_content"
+        android:text="手续费:123"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/libTextWhite"
+        android:layout_height="wrap_content"/>
+    <it.mbkj.kuangji.view.NewTextView
+        android:id="@+id/tv_jiaoyi_price"
+        android:layout_width="wrap_content"
+        android:text="交易价格:6546"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/libTextWhite"
+        android:layout_height="wrap_content"/>
+    <it.mbkj.kuangji.view.NewTextView
+        android:id="@+id/tv_jiaoyi_zonge"
+        android:layout_width="wrap_content"
+        android:text="交易总额:6546"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/libTextWhite"
+        android:layout_height="wrap_content"/>
+    <it.mbkj.kuangji.view.NewTextView
+        android:id="@+id/tv_jiaoyi_time"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="交易时间:2021/04/18 23:12:34"
+        android:textColor="@color/libTextWhite"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+

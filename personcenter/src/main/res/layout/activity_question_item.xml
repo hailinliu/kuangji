@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:text="2021/05/21"
+            android:textColor="@color/libTextWhite"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/person_you"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_tt"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/tv_quesion"
+    android:layout_width="wrap_content"
+    android:text="问题:饿了"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:layout_marginTop="30dp"
+    android:textColor="@color/libTextWhite"
+    android:layout_height="wrap_content"/>
+<View
+    android:layout_width="match_parent"
+    android:background="@color/libTextWhite"
+    android:layout_marginTop="10dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/tv_huifu"
+        android:layout_width="wrap_content"
+        android:text="回复:客服暂无回复"
+        android:layout_marginTop="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/libTextWhite"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
+</layout>

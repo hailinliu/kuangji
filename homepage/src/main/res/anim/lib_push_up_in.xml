@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false" android:zAdjustment="top">
+    <!--主页轮播下面小喇叭旁边上下滚动文本的动画-->
+    <translate android:duration="400" android:fromYDelta="100%"  android:toYDelta="0"/>
+    <alpha android:duration="400" android:fromAlpha="0.0" android:toAlpha="1.0"/>
+
+
+</set>

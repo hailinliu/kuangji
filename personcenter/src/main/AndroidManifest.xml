@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.mbkj.personcenter" >
+
+    <application>
+        <activity android:name=".activity.PledgeHallActivity" />
+        <activity android:name=".activity.MyOrderActivity" />
+        <activity android:name=".activity.OrderDetailActivity" />
+        <activity android:name=".activity.ZichanXinXiActivity" />
+        <activity android:name=".activity.RechargeRecordActivity" />
+        <activity android:name=".activity.RechargeActivity" />
+        <activity android:name=".activity.WithDrawActivity" />
+        <activity android:name=".activity.ProfitRecordActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.WithDrawRecordActivity" />
+        <activity android:name=".activity.TranferActivity" />
+        <activity android:name=".activity.TransferRecordActivity" />
+        <activity android:name=".activity.UpdateDealPasswordActivity" />
+        <activity android:name=".activity.MyJiJiaActivity" />
+        <activity android:name=".activity.MyTeamActivity" />
+        <activity android:name=".activity.UpdateLoginActivity" />
+        <activity android:name=".activity.InviteFriendsActivity" />
+        <activity android:name=".activity.ConactUsActivity" />
+    </application>
+</manifest>

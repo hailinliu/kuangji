@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="libBg">#ffffff</color>
+    <color name="libTextHint">#999999</color>
+    <color name="transparent">#00000000</color>
+    <!--默认白色字体-->
+    <color name="libTextWhite">#ffffff</color>
+
+    <color name="libtextbohelv">#80e1d5</color>
+    <color name="libTextWhiteother">#fffdf7</color>
+    <color name="app_action_bar">#00151618</color>
+    <!--statusBar颜色-->
+    <color name="libColorPrimary">#22305b</color>
+    <!---->
+    <color name="libColorPrimaryDark">#212E5B</color>
+    <color name="libColorControlNormal">#7E8399</color>
+    <color name="lib_hint">#b5b8c2</color>
+    <color name="libDivider">#E5E5E5</color>
+    <color name="libDivider1">#000000</color>
+    <!--默认背景主色调-->
+    <color name="lib_bg">#111c40</color>
+    <color name="lib_background">#111c40</color>
+    <color name="lib_white">#ffffff</color>
+    <color name="lib_bg_f7f7fa">#111c40</color>
+    <color name="lib_bg_bar1">#1E2840</color>
+    <color name="lib_bg_bar2">#0A1225</color>
+    <!--蓝色主色调-->
+    <color name="lib_dominant">#2099ff</color>
+    <color name="lib_dominant1">#ffbe21</color>
+    <!---->
+    <color name="lib_bg_white">#ffffff</color>
+    <!--editText提示色-->
+    <color name="libTextColorHint">#b5b8c2</color>
+    <color name="libTextColorHintLight">#50ffffff</color>
+    <!--editText字体颜色-->
+    <color name="libEditColor">#888d9d</color>
+    <!--默认灰色字体-->
+    <color name="libTextGray">#9a9aad</color>
+    <!--默认白色字体-->
+    <color name="libTextWhiteGrey">#E9EAEB</color>
+    <!--默认黑色字体-->
+    <color name="libTextBlack">#121212</color>
+    <!--默认蓝色字体-->
+    <color name="libTextBlue">#92a2e8</color>
+    <!--上涨颜色-->
+    <color name="libUpColor">#05c089</color>
+    <!--下跌颜色-->
+    <color name="libDownColor">#ff5755</color>
+    <!--按钮默认颜色-->
+    <!--分割线颜色-->
+    <color name="lib_divider">#111c40</color>
+    <color name="lib_divider_dcdcdc">#dcdcdc</color>
+
+    <color name="lib_color_efa517">#efa517</color>
+
+    <color name="lib_color_translucent">#50ffffff</color>
+
+
+    <color name="lib_color_bbbbbb">#bbbbbb</color>
+    <color name="lib_color_888d9d">#888d9d</color>
+    <color name="lib_huoqu_color">#56afb7</color>
+    <color name="appSelect">#56afb7</color>
+    <color name="appUnSelect">#eeeeee</color>
+    <color name="appBg">#1b2a2f</color>
+    <color name="text_bohe">#80E1D5</color>
+    <color name="text_fengexian">#2b4346</color>
+    <color name="bottom_background">#001D2126</color>
+    <color name="shouye_text1">#319C31</color>
+    <color name="shouye_text2">#9B312F</color>
+    <color name="shouye_text3">#31949C</color>
+    <color name="shouye_text4">#EF7B21</color>
+    <color name="content_back">#161C22</color>
+</resources>

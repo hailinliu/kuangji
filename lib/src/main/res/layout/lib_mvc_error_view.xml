@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0pt"
+        android:layout_weight="3" />
+
+    <ImageView
+        android:id="@+id/ivNetError"
+        android:layout_width="200pt"
+        android:layout_height="200pt"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/lib_mvc_net_error" />
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivNetError"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40pt"
+        android:gravity="center"
+        android:text="@string/liblib_mvc_error_view60"
+        android:textColor="@color/libTextHint"
+        android:textSize="30pt" />
+
+    <TextView
+        android:id="@+id/btRetry"
+        android:layout_width="120pt"
+        android:layout_height="50pt"
+        android:layout_below="@id/tvError"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30pt"
+        android:gravity="center"
+        android:text="@string/liblib_mvc_error_view80"
+        android:textColor="@color/libTextHint"
+        android:textSize="30pt" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0pt"
+        android:layout_weight="10" />
+</LinearLayout>

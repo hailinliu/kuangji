@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_yaoqing"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <it.mbkj.kuangji.view.NewTextView
+        android:id="@+id/left_img"
+        android:layout_width="60dp"
+        android:layout_height="26dp"
+        android:text="返回"
+        android:textSize="8sp"
+        android:paddingStart="20dp"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:textColor="@color/libTextWhite"
+        android:background="@mipmap/lib_back"
+        android:tint="@color/libTextWhite" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="310dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/libTextWhite"
+        android:text="邀请码"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:id="@+id/tv_yaoqing"
+        android:layout_width="wrap_content"
+        android:text="ree"
+        android:textColor="#0B468B"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/lib_yaoqing"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="12dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/person_fuzhi"
+        android:layout_height="12dp"/>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="135dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_height="135dp"/>
+</LinearLayout>
+</layout>

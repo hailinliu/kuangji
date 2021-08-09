@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/lib_divider_dcdcdc"/>
+            <corners android:radius="20pt"/>
+            <stroke android:color="#00000000" android:width="10pt"/>
+        </shape>
+    </item>
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/lib_divider_dcdcdc"/>
+            <corners android:radius="20pt"/>
+            <stroke android:color="#00000000" android:width="10pt"/>
+        </shape>
+    </item>
+</selector>

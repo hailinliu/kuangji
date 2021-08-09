@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.mbkj.login" >
+
+    <application
+        >
+        <activity android:name=".activity.LoginActivity" android:launchMode="singleTask"/>
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.ForgetPwdActivity" />
+    </application>
+</manifest>

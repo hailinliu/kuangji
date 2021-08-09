@@ -1,0 +1,8 @@
+rootProject.name='kuangji'
+include ':app'
+include ':lib'
+include ':homepage'
+include ':xingqiu'
+include ':tradecenter'
+include ':personcenter'
+include ':login'

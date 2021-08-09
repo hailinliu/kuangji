@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#161C22" />
+    <corners android:radius="3pt"/>
+    <stroke android:width="1pt" android:color="@color/lib_huoqu_color" />
+</shape>

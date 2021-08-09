@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<layout
+    >
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginTop="30dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <it.mbkj.kuangji.view.NewTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/libTextWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Login" />
+
+    <LinearLayout
+        android:id="@+id/ivBack"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <it.mbkj.kuangji.view.NewTextView
+            android:id="@+id/left_img"
+            android:layout_width="60dp"
+            android:layout_height="26dp"
+            android:text="返回"
+            android:textSize="8sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/libTextWhite"
+            android:background="@mipmap/lib_back"
+            android:tint="@color/libTextWhite" />
+
+        <TextView
+            android:id="@+id/left_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/libTextWhite"
+            android:textSize="32pt"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+    <it.mbkj.kuangji.view.NewTextView
+        android:id="@+id/right_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:textColor="@color/libTextWhite"
+        android:textSize="14sp"
+        tools:text="hehe" />
+
+    <ImageView
+        android:id="@+id/ivRight"
+        android:layout_width="80pt"
+        android:layout_height="80pt"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="40pt"
+        android:visibility="visible" />
+
+</RelativeLayout>
+</layout>

@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.mbkj.tradecenter" >
+
+    <application>
+        <activity android:name=".activity.BuyBaoActivity" />
+        <activity android:name=".activity.SellListActivity" />
+        <activity android:name=".activity.BuyListActivity" />
+    </application>
+</manifest>

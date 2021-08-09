@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/homepage_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <ImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#4D000000"
+        android:paddingBottom="2dp"
+        android:layout_height="48dp">
+        <com.flyco.tablayout.CommonTabLayout
+            android:id="@+id/commonTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            app:tl_iconHeight="20dp"
+            app:tl_iconWidth="20dp"
+            app:tl_indicator_height="0dp"
+            app:tl_textSelectColor="#14C7FF"
+            app:tl_textUnselectColor="@color/appUnSelect"
+            app:tl_textsize="10sp"
+            app:tl_underline_height="0dp" />
+    </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
